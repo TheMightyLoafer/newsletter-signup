@@ -5,7 +5,7 @@ submitBtn.addEventListener('click', (event) => {
   let emailValue = document.getElementById('email-address');
 
   if (!isValidEmail(emailValue.value)) {
-    const errormsg = document.querySelector('.email')
+    const errormsg = document.querySelector('.email');
     errormsg.innerHTML = `<p class="error-message">Please enter a valid email address</p>`;
 
     // Prevent default form submission
@@ -27,7 +27,6 @@ submitBtn.addEventListener('click', (event) => {
   `;
 
   // Add the 'success-message' class to formInnerContent
- 
 
   const dismissBtn = document.getElementById('dismiss-btn'); // Re-fetch the dismiss button after updating the form content
   dismissBtn.addEventListener('click', refreshPage); // Attach the event handler now
