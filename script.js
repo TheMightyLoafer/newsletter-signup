@@ -17,6 +17,10 @@ submitBtn.addEventListener('click', (event) => {
   }
 
   formInnerContent.innerHTML = `
+  <picture class="form-img">
+        <source media="(min-width: 500px)" srcset="/assets/images/illustration-sign-up-desktop.svg">
+        <img src="/assets/images/illustration-sign-up-mobile.svg" alt="Sign up illustration">
+      </picture>
   <div class="success-message" id="form-content">
     <div><img src="/assets/images/icon-success.svg" alt="success icon"></div>
     <h1>Thanks for Subscribing!</h1>
