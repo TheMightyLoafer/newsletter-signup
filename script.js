@@ -63,7 +63,7 @@ function isValidEmail(email) {
     if (!domain.match(/^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/)) {
       return false;
     }
-
+    // Check if email has a value
     if (!email) {
         return false;
     }
