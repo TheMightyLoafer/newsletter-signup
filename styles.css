@@ -46,3 +46,23 @@ body p {
     color: #FFF;
 }
 
+.bold {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.success-message {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+    margin: 200px 25px;
+}
+
+.success-message input {
+    padding: 15px;
+    margin-top: 200px;
+}
+
+.success-message p {
+    line-height: 2em;
+}
